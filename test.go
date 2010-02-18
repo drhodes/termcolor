@@ -1,6 +1,6 @@
 package main
 
-import . "./termcolor"
+import . "termcolor"
 import . "fmt"
 
 func main(){
