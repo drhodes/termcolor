@@ -2,7 +2,7 @@
 // Derek Rhodes, physci@gmail.com
 // based on python library: termcolors by
 // Konstantin Lepa <konstantin lepa at gmail com>
-
+// license GPLv3, see COPYING.txt
 
 package termcolor;
 import . "fmt";
@@ -21,7 +21,7 @@ func Colorize(s, color string) string{
 	case "magenta": code = 5; break;
 	case "cyan":    code = 6; break;
 	case "white":   code = 7; break;
-	default: return s // couldn't find your color		
+	default: return s // couldn't find your color
 	}
 
 	reset := "\033[0m";
