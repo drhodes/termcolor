@@ -1,5 +1,8 @@
 // termcolor.go
 // Derek Rhodes, physci@gmail.com
+// based on python library: termcolors by
+// Konstantin Lepa <konstantin lepa at gmail com>
+
 
 package termcolor;
 import . "fmt";
